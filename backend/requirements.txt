@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+fastf1
+redis
+pandas
+numpy
+requests
+pytest
+httpx
