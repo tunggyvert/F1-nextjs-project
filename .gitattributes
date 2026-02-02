@@ -1,0 +1,8 @@
+# บังคับให้ GitHub นับโฟลเดอร์เหล่านี้เป็นภาษาที่ต้องการ
+backend/*.py linguist-detectable=true
+frontend/src/**/*.ts linguist-detectable=true
+frontend/src/**/*.tsx linguist-detectable=true
+
+# สั่งให้ข้ามไฟล์ที่ไม่ใช่โค้ดจริงๆ
+*.json linguist-documentation=true
+README.md linguist-documentation=true
